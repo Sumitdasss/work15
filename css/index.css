@@ -178,13 +178,13 @@ height: 3px;
    
     font-weight: 600;
 }
-.button1 a::after{
-      width: 0px;
+.button1 a::after {
+    width: 0px;
     height: 2px;
     content: "";
     background-color: black;
-    margin-top:13px ;
-    margin-left: -170px;
+    margin-top: 13px;
+    margin-left: -200px;
     position: absolute;
 }
 .button1 a:hover::after{
@@ -948,6 +948,8 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 100px;
+    padding-bottom: 15px;
+    position: relative;
 }
 .one8 input{
     width: 550px;
@@ -981,4 +983,153 @@ text-align: center;
     color: white;
     font-size: 18px;
     
+}
+.one10 h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    padding-top: 50px;
+    line-height: 20px;
+}
+.one10 h5{
+font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    padding-top: 20px;
+}
+.one10 p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    line-height: 20px;
+    padding-right: 104px;
+    padding-top: 10px;
+}
+.one10 a{
+    font-size: 20px;
+    color: #faf4f4;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+.one10 i{
+    margin-top: 26px;
+}
+.one11 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.one15 a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    padding-right: 157px;
+    line-height: 38px;
+}
+.one15 {
+    margin-top: 50px;
+}
+.one12 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.one16 li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    line-height: 38px;
+}
+.one16{
+    margin-top: 50px;
+}
+.one17 a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    
+ 
+    
+}
+.one13 h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.one17 li{
+    line-height:37px ;
+}
+.one17{
+    margin-top: 44px;
+}
+.one14 h3{
+      font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.one14 h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #5C5C5C;
+    padding-top: 50px;
+    line-height: 50px;
+    padding-right: 80px;
+}
+.one10{
+   margin-top: 100px; 
+}
+.one11{
+   margin-top: 100px; 
+}
+.one12{
+   margin-top: 100px; 
+}
+.one13{
+   margin-top: 100px; 
+}
+.one14{
+   margin-top: 100px; 
+}
+.one111::after {
+    width: 100%;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 20%;
+    margin-top: -39px;
+    margin-left: 0px;
+}
+.one18 h4{
+font-size: 18px;
+font-weight: 500;
+color: white;
+}
+.one20 h4{
+    font-size: 18px;
+font-weight: 500;
+color: white;
+}
+.one19 a{
+    color: white;
+}
+.one19 i{
+    margin-left: 10px;
+}
+.one20 {
+    margin-left: 269px;
+    margin-top: 128px;
+}
+.one18 {
+    margin-top: 128px;
+}
+.one112{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.one113{
+    width: 60px;
+    height: 50px;
+    border: none;
 }
