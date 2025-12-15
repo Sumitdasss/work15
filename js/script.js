@@ -59,3 +59,4 @@ $('.slider1').slick({
         //seconds
       }, 0)
   }());
+  AOS.init();
