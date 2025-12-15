@@ -24,8 +24,146 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
 }
+.slider .col-lg-4{
+    margin-right: 20px;
+}
+.slider1 .col-lg-3{
+    margin-right: 20px;
+}
+.slick-dots{
+    display: flex;
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 37px;
+ }   
+.slick-dots li{
+    margin: 0px 10px;
+    font-size: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+   
+    
+}
+.button4{
+ 
+    color:#222222;
+     font-size: 30px;
+    position: absolute;
+    top: 50%;
+ 
+z-index: 1111;
+}
+.button5{
+ 
+    color:#222222;
+     font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+z-index: 1111;
+}
+.button6{
+ 
+    color:#222222;
+     font-size: 30px;
+    position: absolute;
+    top: 50%;
+ 
+z-index: 1111;
+}
+.button7{
+ 
+    color:#222222;
+     font-size: 30px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+z-index: 1111;
+}
+.slick-dots li button{
+    display: none;
+}
+.slick-dots li.slick-active{
+    background: #FF4655;
+}
 html,body{
     overflow-x: hidden;
+}
+.div31{
+    display: flex;
+margin-left: 806px;
+    
+
+}
+.days{
+     width: 100px; 
+     margin-top: -24px; 
+    
+    
+}
+.div32 {
+    width: 100px;
+    margin-top: -24px;
+}
+.div32 h3{
+    color: #222222;
+    font-size: 25px;
+    padding-left: 42px;
+    
+}
+.days h3{
+    color: #222222;
+    text-align: center;
+    
+}
+.hours p{
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+}
+.minutes p{
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+}
+.seconds p{
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+}
+.days p{
+    color: #222222;
+    font-size: 20px;
+    text-align: center;
+}
+.hours h3{
+    color: #222222;
+    text-align: center;
+}
+.minutes h3{
+    color: #222222;
+    text-align: center;
+}
+.seconds h3{
+    color:#222222;
+    text-align: center;
+}
+.hours{
+    width: 100px; 
+    margin-top: -24px;
+}
+.minutes{
+     width: 100px; 
+     margin-top: -24px;
+    
+}
+.seconds{
+    width: 100px; 
+    margin-top: -24px;
+    
 }
 .div5{
     
@@ -85,7 +223,7 @@ transition: .5s;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     
 }
 .navbar a{
